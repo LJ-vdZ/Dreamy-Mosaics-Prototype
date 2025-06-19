@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 6f436a978bf7f324ca31bc68b042b875
+guid: e9ab27f8ebee74e488caef6e999da5cd
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3583470566626311229
-    second: AboutButton_0
+      213: 2062332942147038216
+    second: HomeButton-removebg-preview_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: AboutButton_0
+      name: HomeButton-removebg-preview_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1597
-        height: 335
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d3c34da8e7b0bb130800000000000000
-      internalID: 3583470566626311229
+      spriteID: 80ca24952e0ee9c10800000000000000
+      internalID: 2062332942147038216
       vertices: []
       indices: 
       edges: []

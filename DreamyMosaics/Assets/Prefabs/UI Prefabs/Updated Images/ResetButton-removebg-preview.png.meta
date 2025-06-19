@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 853e1d07d009d704a8a3b8884db283d0
+guid: 64f48ea99c681d6499a52251b23793d1
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 9208715080272408583
-    second: NextButton_0
+      213: 4089925427954713793
+    second: ResetButton-removebg-preview_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: NextButton_0
+      name: ResetButton-removebg-preview_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1582
-        height: 497
+        width: 894
+        height: 279
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7007b6d539debcf70800000000000000
-      internalID: 9208715080272408583
+      spriteID: 1c40413e18552c830800000000000000
+      internalID: 4089925427954713793
       vertices: []
       indices: 
       edges: []

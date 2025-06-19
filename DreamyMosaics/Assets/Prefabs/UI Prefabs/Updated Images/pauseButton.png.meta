@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 2604d48cc855cca47931bbda4bf8a5d7
+guid: 796a91507be321344ba9633250b61359
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8966848732344388116
-    second: FQAButton_0
+      213: -6706267312972493342
+    second: pauseButton_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: FQAButton_0
+      name: pauseButton_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1001
-        height: 1001
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ce573f9169a5f8380800000000000000
-      internalID: -8966848732344388116
+      spriteID: 2ed0671096d8ee2a0800000000000000
+      internalID: -6706267312972493342
       vertices: []
       indices: 
       edges: []

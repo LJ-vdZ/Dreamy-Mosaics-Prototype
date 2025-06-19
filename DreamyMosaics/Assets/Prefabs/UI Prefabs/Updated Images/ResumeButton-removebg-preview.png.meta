@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 83574648f3743aa47a1655a5e6d6b82e
+guid: 3ab471a6ad82c154592c29a87ad3d4b0
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4405368491117698828
-    second: NewGameButton_0
+      213: -3690285244361767411
+    second: ResumeButton-removebg-preview_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: NewGameButton_0
+      name: ResumeButton-removebg-preview_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1583
-        height: 335
+        width: 1087
+        height: 229
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c0fd4c15d43032d30800000000000000
-      internalID: 4405368491117698828
+      spriteID: d0683f94f1979ccc0800000000000000
+      internalID: -3690285244361767411
       vertices: []
       indices: 
       edges: []

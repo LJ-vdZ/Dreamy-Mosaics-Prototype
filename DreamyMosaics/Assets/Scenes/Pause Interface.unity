@@ -234,7 +234,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -8966848732344388116, guid: 2604d48cc855cca47931bbda4bf8a5d7, type: 3}
+  m_Sprite: {fileID: -231191846352636398, guid: fb23c228b5e5b364cada871651aa1c0d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -503,7 +503,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 5243372756566668239, guid: 18a94ac1211b67a4b9c34e495df46dab, type: 3}
+  m_Sprite: {fileID: 4089925427954713793, guid: 64f48ea99c681d6499a52251b23793d1, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -807,7 +807,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -3534288053459477036, guid: 8aa482156e5b8ed4ba2ac6f1d47b22b1, type: 3}
+  m_Sprite: {fileID: -1300873119625974996, guid: 9244bf3197cc4e14da4d08d13f18f548, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -940,7 +940,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 3583470566626311229, guid: 6f436a978bf7f324ca31bc68b042b875, type: 3}
+  m_Sprite: {fileID: 3583470566626311229, guid: f8edaba2a65b5ed4bb3be5eb88eba60d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1372,7 +1372,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -5601767544888516966, guid: 2131e9b57c2dd704d92a20a72ea00a78, type: 3}
+  m_Sprite: {fileID: 2062332942147038216, guid: e9ab27f8ebee74e488caef6e999da5cd, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1766,7 +1766,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1586740512}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2128463693}
+        m_TargetAssemblyTypeName: ChangeScene, Assembly-CSharp
+        m_MethodName: ResumeButton
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1586740512
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1787,7 +1799,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 2433152336268005233, guid: 3863cb6ec7ac0844aad459104025362b, type: 3}
+  m_Sprite: {fileID: -3690285244361767411, guid: 3ab471a6ad82c154592c29a87ad3d4b0, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1995,7 +2007,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 4304446102398311253, guid: 675c63e9f4de9ee4ba2feb9990c7f67b, type: 3}
+  m_Sprite: {fileID: 7710002359251132797, guid: 2b5357285b9d844499b1694ed2bb4a06, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

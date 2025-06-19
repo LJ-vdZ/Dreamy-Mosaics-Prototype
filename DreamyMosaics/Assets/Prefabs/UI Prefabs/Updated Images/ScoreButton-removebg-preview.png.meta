@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 58877e7802f4de140934d84df3c6c3e5
+guid: b6f7c23213eeb854c97eba15535e8229
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2970073484504309273
-    second: BackButton_0
+      213: -6361955865989931084
+    second: ScoreButton-removebg-preview_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: BackButton_0
+      name: ScoreButton-removebg-preview_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1592
-        height: 497
+        width: 1087
+        height: 229
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7e16057e6ed28c6d0800000000000000
-      internalID: -2970073484504309273
+      spriteID: 4bf15f2d8dac5b7a0800000000000000
+      internalID: -6361955865989931084
       vertices: []
       indices: 
       edges: []
