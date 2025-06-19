@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      FQAButton-removebg-preview_0: -231191846352636398
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
