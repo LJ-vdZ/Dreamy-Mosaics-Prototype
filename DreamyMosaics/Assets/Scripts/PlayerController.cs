@@ -6,11 +6,13 @@ public class PlayerController : MonoBehaviour
     // Allows you to hold down a key for movement.
     [SerializeField] private bool isRepeatedMovement = false;
     // Time in seconds to move between one grid position and the next.
-    [SerializeField] private float moveDuration = 0.1f;
+    [SerializeField] private float moveDuration = 0.2f;
     // The size of the grid
-    [SerializeField] private float gridSize = 1f;
+    [SerializeField] private float gridSize = 0.3f;
 
     private bool isMoving = false;
+
+    [SerializeField] private Color [] arrColours;
 
     // Update is called once per frame
     private void Update()

@@ -2,15 +2,12 @@ using UnityEngine;
 
 public class Tile : MonoBehaviour
 {
-    [SerializeField] private Color baseColour, offSetColour;
     [SerializeField] private SpriteRenderer spriteRenderer;
 
-    public void Init(bool isOffset)
+    private void Start()
     {
-        spriteRenderer.color = isOffset ? offSetColour : baseColour;
-
+        spriteRenderer = GetComponent<SpriteRenderer>();
     }
-
     private void OnTriggerEnter2D(Collider2D other)
     {
         //Debug.Log("has triggered");
