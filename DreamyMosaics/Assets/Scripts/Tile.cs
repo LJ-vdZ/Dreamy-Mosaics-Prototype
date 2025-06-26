@@ -15,8 +15,13 @@ public class Tile : MonoBehaviour
 
         if (playerRender.color == spriteRenderer.color)
         {
+            GameManager.Instance.destroyedTile++;
             //Debug.Log("Has recognised colour");
             Destroy(gameObject);
+        }
+        else 
+        {
+            GameManager.Instance.takeDamage();
         }
     }
 }

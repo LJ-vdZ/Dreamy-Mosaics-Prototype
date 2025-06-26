@@ -1,5 +1,6 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.Rendering.Universal;
 
 public class PlayerController : MonoBehaviour
 {
@@ -13,10 +14,15 @@ public class PlayerController : MonoBehaviour
     private bool isMoving = false;
 
     [SerializeField] private Color [] arrColours;
+    [SerializeField] private SpriteRenderer spriteRenderer;
+    [SerializeField] private Light2D glowLight;
+
+    private int arrCounter = 0;
 
     // Update is called once per frame
     private void Update()
     {
+
         // Only process on move at a time.
         if (!isMoving)
         {
@@ -50,6 +56,18 @@ public class PlayerController : MonoBehaviour
             {
                 StartCoroutine(Move(Vector2.right));
             }
+            
+        }
+
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            if (arrCounter == arrColours.Length)
+            {
+                arrCounter = 0;
+            }
+            spriteRenderer.color = arrColours[arrCounter];
+            glowLight.color = arrColours[arrCounter];
+            arrCounter++;
         }
     }
 

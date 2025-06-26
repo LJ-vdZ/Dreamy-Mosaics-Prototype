@@ -45,8 +45,18 @@ public class AudioManager : MonoBehaviour
     }
 
     //This might not work for the buttons, but I am testing it out
-    public void MuteMusic(bool mMute)
+    public void MuteMusic(GameObject barMute)
     {
-        musicSource.mute = mMute;
+        if(musicSource.mute == false) 
+        {
+            barMute.SetActive(true);
+            musicSource.mute = true;
+        }
+        else
+        {
+            barMute.SetActive(false);
+            musicSource.mute = false;
+        }
+        
     }
 }
