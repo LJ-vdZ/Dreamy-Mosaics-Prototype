@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 01719dd4afa2a594e8e6f7a86d48df67
+guid: 53d0d865046cb904bacf63ed6ef1ee58
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1142856208588976053
-    second: Level2Image_0
+      213: -1540045574171469662
+    second: GAME CONTROLS POPUP_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Level2Image_0
+      name: GAME CONTROLS POPUP_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 972
-        height: 608
+        x: 14
+        y: 29
+        width: 1915
+        height: 1517
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b4054b95552c320f0800000000000000
-      internalID: -1142856208588976053
+      spriteID: 2a8d895b5b8a0aae0800000000000000
+      internalID: -1540045574171469662
       vertices: []
       indices: 
       edges: []
@@ -134,8 +134,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Level2Image_0: -1142856208588976053
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
